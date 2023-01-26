@@ -1,0 +1,24 @@
+:root {
+    --header-height: 4.5rem;
+  
+    /* colors */
+    --hue: 209;
+    /* HSL color mode */
+    --base-color: hsl(var(--hue) 69% 21%);
+    --base-color-second: hsl(var(--hue) 65% 88%);
+    --base-color-alt: hsl(var(--hue) 57% 53%);
+    --title-color: hsl(var(--hue) 41% 10%);
+    --text-color: hsl(0 0% 46%);
+    --text-color-light: hsl(0 0% 98%);
+    --body-color: hsl(0 0% 98%);
+}
+
+
+.text-custom {
+    color: var(--base-color);
+    font-weight: bold;
+   }
+
+.fundo-faixas{
+    color: var(--base-color) 
+}
