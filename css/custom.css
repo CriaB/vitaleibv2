@@ -22,3 +22,14 @@
 .fundo-faixas{
     color: var(--base-color) 
 }
+
+
+  
+  .owl-item .btn-container {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
